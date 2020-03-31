@@ -1,6 +1,10 @@
 import React from 'react';
 import classes from './Button.css';
 
+/**
+ * This functional component represents
+ * @param {} props 
+ */
 const Button = (props) => (
 <button 
     className={[classes.Button, classes[props.btnType]].join(' ')}

@@ -10,6 +10,13 @@ const controls = [
     {label: 'Onion', type: 'onion'}
 ];
 
+/**
+ * This functional component contains the structure of all the build controls
+ * needed for constructing the custom burger, including the 'Submit Order' button
+ * @param {price, disabled, purchasable, ordered, handlers} props includes the price
+ * of each burger item, if the burger is purchasable, was ordered, and handlers to
+ * handle the adding and removing of items to the burger 
+ */
 const BuildControls = (props) => (
     <div className={classes.BuildControls}>
         <p>Current Price: <strong>${props.price.toFixed(2)}</strong></p>

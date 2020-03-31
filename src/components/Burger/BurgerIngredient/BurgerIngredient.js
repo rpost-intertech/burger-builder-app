@@ -1,6 +1,13 @@
 import React from 'react';
 import classes from './BurgerIngredient.css'
 
+/**
+ * This functional component contains the logic for displaying
+ * a particular burger ingredient in the visual preview of the
+ * burger being built  
+ * @param {type} props a String representing the type of ingredient
+ * to be displayed on the burger 
+ */
 const BurgerIngredient = (props) => {
     let ingredient = null;
     switch(props.type){

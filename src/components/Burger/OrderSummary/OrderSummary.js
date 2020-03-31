@@ -2,6 +2,12 @@ import React from 'react';
 import Aux from '../../../hoc/Aux';
 import Button from '../../UI/Button/Button';
 
+/**
+ * This functional component represents the order summary/checkout page
+ * of the application that is displayed when the 'Order Now' button is clicked
+ * @param {ingredients,price} props includes the ingredients that were added
+ * to the burger that was built as well as the total price 
+ */
 const OrderSummary = (props) => {
     const ingredientSummary = Object.keys(props.ingredients)
         .map(igKey => {

@@ -14,7 +14,10 @@ const INGREDIENT_PRICES = {
 }
 
 /**
- * This container class contains all 
+ * This container class contains the structure and state management for building, viewing 
+ * and ordering a custom burger. It handles the state for each ingredient along with the 
+ * additions and subtractions to each ingredient, the total price, and whether the 
+ * burger was ordered or purchased.
  */
 class BurgerBuilder extends Component{
     
