@@ -1,4 +1,4 @@
-## description
+## Project Description
 This basic React application allows a user to dynamically build a burger, add ingredients, and order preview for ordering the burger. The application includes a toolbar (and a sidebar for mobile use), a dynamic,visual preview of the burger being built, a list of ingredients that can be added to/removed from the burger with the ability to add/remove items to the burger being built. It also displays a order summary after the 'Submit Order' button has been clicked.
 
 
